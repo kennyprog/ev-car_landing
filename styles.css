@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+
+body {
+  font-family: "Syne", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  background: #E9E9E9;
+  margin: 32px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.container {
+  width: 1240px;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 1336px;
+  height: 100px;
+  border-radius: 10px;
+  background: #FFFFFF;
+  margin: auto;
+}
+
+.header__logo {
+  padding-left: 18px;
+}
+
+.header__nav {
+  display: flex;
+  gap: 48px;
+}
+
+.header__link {
+  font-size: 18px;
+}
+
+.order_now {
+  padding: 18px 24px;
+  font-size: 18px;
+  background: #E9FF61;
+  margin-right: 18px;
+}
+
+.order_now::after {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin-left: 13px;
+  background: url("images/strelka.png") no-repeat center / contain;
+}
+
+.welcome .container {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.welcome__title {
+  width: 1200px;
+  height: 284px;
+  padding-top: 100px;
+  margin: 0;
+  font-weight: 680;
+  text-align: center;
+  font-size: 236px;
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+
+.welcome__img {
+  margin: -150px;
+ width: 821px;
+ height: 398px;
+}
+
+.welcome__subtitle {
+  margin: 0;
+  font-weight: 700;
+  font-size: 236px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #e7e5e5;
+  z-index: -1;
+}
+
+.welcome__info {
+  padding-top: 75px;
+}
+
+.welcome__info .container {
+display: flex;
+flex-direction: row;
+gap: 60px;
+justify-content: center;
+}
+
+.welcome_text {
+  display: flex;
+  justify-content: center;
+}
+
+.info__title {
+  margin: 0;
+  font-weight: 600;
+  font-size: 80px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.info__subtitle {
+  margin: 0;
+  padding-left: 22px;
+  font-size: 24px;
+  color: #999999;
+}
+
+.chargers {
+ padding-top: 150px;
+ padding-bottom: 100px;
+}
+
+.charger__header {
+  text-align: center;
+}
+
+.chargers__link {
+  padding: 10px 20px;
+  background: #EDF2F6;
+}
+
+.chargers__title {
+  font-size: 50px;
+  color: #000000;
+}
+
+.charger__cards {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.price__wrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.charger__img {
+  width: 370px;
+  height: 445px;
+}
+
+.charger-info__title {
+  margin: 0;
+  font-size: 20px;
+  color: #000000;
+}
+
+.charger-info__subtitle {
+  width: 370px;
+  height: 66px;
+  font-size: 18px;
+  color: #999999;
+}
+
+.charger__price {
+  font-size: 24px;
+  color: #999999;
+}
+
+.charger-price__discount {
+  font-size: 24px;
+  color: #000000;
+}
+
