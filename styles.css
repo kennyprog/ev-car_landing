@@ -137,6 +137,7 @@ justify-content: center;
 }
 
 .chargers__link {
+  cursor: default;
   padding: 10px 20px;
   background: #EDF2F6;
 }
@@ -186,3 +187,83 @@ justify-content: center;
   color: #000000;
 }
 
+.futures {
+  padding-bottom: 100px;
+}
+
+.header__futures {
+  display: flex;
+}
+
+.futures-header__title {
+  font-size: 49px;
+  text-transform: capitalize;
+  width: 750px;
+}
+
+.futures-header__uptitle {
+  font-size: 18px;
+}
+
+.futures-header__desc {
+  width: 344px;
+  height: 132px;
+  padding-top: 100px;
+  padding-left: 177px;
+  font-size: 18px;
+  color: #999999;
+}
+
+.main__futures {
+  display: flex;
+  padding-top: 60px;
+  gap: 20px;
+}
+
+.futures-join__title {
+  margin: 0;
+  padding-top: 100px;
+}
+
+.futures-join__desc {
+  font-size: 18px;
+  color: #999999;
+}
+
+.futures__join-2 {
+  width: 100%;
+  display: block;
+  align-items: flex-end;
+  padding: 0px 24px;
+  padding-top: 271px;
+  background: url(images/join_img.png);
+}
+
+.futures-join__blur {
+  padding-left: 25px;
+  backdrop-filter: blur(20px);
+  border-radius: 10px;
+  border: 1px solid #FFFFFF;
+  width: 562px;
+  height: 235px;
+  margin-bottom: 24px;
+}
+
+.blur__title {
+  padding-top: 30px;
+  margin: 0;
+  font-size: 36px;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.blur__desc {
+  font-size: 18px;
+  padding-bottom: 20px;
+  color: #E9E9E9;
+}
+
+.blur__btn {
+  padding: 12px 38px;
+  background: #E9FF61;
+}
