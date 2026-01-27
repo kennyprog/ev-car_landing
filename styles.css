@@ -6,6 +6,8 @@ body {
   font-size: 24px;
   background: #E9E9E9;
   margin: 32px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 a {
@@ -266,4 +268,165 @@ justify-content: center;
 .blur__btn {
   padding: 12px 38px;
   background: #E9FF61;
+}
+
+.mobility {
+  background-color: #000000;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.header__mobility {
+ text-align: center;
+}
+
+.mobility .chargers__link {
+  background-color: #242323;
+  color: #fff;
+}
+
+.mobility .chargers__title {
+  color: #fff;
+}
+
+.main__mobility {
+  height: 600px;
+  max-width: 1200px;
+  display: grid;
+  gap: 20px;
+  grid-template-areas: 
+    "reviews reviews car"
+    "miles logo car"
+    "miles innov car";
+
+  grid-template-columns: 1fr 1fr 1.5fr;
+  grid-template-rows: repeat(3, minmax(175px, auto));
+}
+
+.card {
+
+}
+
+.card-1 {
+  grid-area: reviews; 
+  background-color: #242323;
+}
+
+.card-1__titile {
+  display: flex;
+  font-size: 42px;
+  margin: 0 32px;
+  margin-top: 15px;
+  position: relative;
+  color: #fff;
+}
+
+.card-1__titile::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: -10px;
+  width: 74px;
+  height: 74px;
+  background: url("images/molnia.png") no-repeat center / contain;
+}
+
+.card-1__subtitle {
+  margin: 10px 32px;
+  font-size: 18px;
+  color: #E9FF61;
+}
+
+.card-1__text {
+  display: flex;
+  gap: 12px;
+  font-size: 18px;
+  color: #EDF2F6;
+}
+
+.card-1__text::before {
+  content: "";
+  width: 53px;
+  height: 30px;
+  margin-left: 32px;
+  background: url("images/owners.png") no-repeat center / contain;
+}
+
+.card-2 {
+  grid-area: miles; 
+  background: url(images/card2-back.png) no-repeat;
+}
+
+.evlink {
+  display: inline-block;
+  margin: 24px;
+  font-size: 18px;
+  color: #E9E9E9;
+  padding: 10px 10px;
+  background: #000000;
+}
+
+.card-2__title {
+  margin: 0;
+  margin-left: 24px;
+  margin-top: 130px;
+  font-weight: 600;
+  font-size: 80px;
+}
+
+.card-2__subtitle {
+  font-size: 24px;
+  margin-left: 24px;
+  margin-top: 0px;
+}
+
+.card-3 {
+  grid-area: logo;
+  background: url(images/logo2.png);
+}
+
+.card-4 {
+  grid-area: innov; 
+  background-color: #242323;
+}
+
+.battery__img {
+  margin-left: 24px;
+  margin-top: 24px;
+}
+
+.card-4__subtitle {
+ color: #E9E9E9;
+ font-size: 18px;
+ margin-left: 24px;
+}
+
+.card-5 {
+  grid-area: car; 
+  background-image: url(images/card-5.jpg);
+}
+
+.card-5__title {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  color: #E9E9E9;
+  gap: 12px;
+}
+
+.card-5__title::before {
+  content: "";
+  width: 42px;
+  height: 42px;
+  margin-left: 32px;
+  background: url("images/molnia.png") no-repeat center / contain;
+}
+
+.subtitle {
+  font-weight: 600;
+  font-size: 80px;
+  text-transform: uppercase;
+  color: #E9E9E9;
+  margin: 32px;
+  margin-top: 300px;
 }
