@@ -272,8 +272,8 @@ justify-content: center;
 
 .mobility {
   background-color: #000000;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 128px;
+  padding-bottom: 128px;
 }
 
 .header__mobility {
@@ -301,10 +301,6 @@ justify-content: center;
 
   grid-template-columns: 1fr 1fr 1.5fr;
   grid-template-rows: repeat(3, minmax(175px, auto));
-}
-
-.card {
-
 }
 
 .card-1 {
@@ -429,4 +425,81 @@ justify-content: center;
   color: #E9E9E9;
   margin: 32px;
   margin-top: 300px;
+}
+
+.comfort {
+  padding-top: 150px;
+}
+
+.comfort .container {
+text-align: center;
+}
+
+.comfort__wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 61px;
+  padding-top: 80px;
+}
+
+.reserve { 
+  padding-top: 128px;
+}
+
+.reserve .container {
+  display: flex;
+  gap: 25px;
+}
+
+.reserve__text {
+  font-size: 18px;
+}
+
+.reserve__title {
+  font-size: 42px;
+  font-weight: 400;
+}
+
+.reserve__row {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 25px;
+}
+
+.reserve__wrapper input {
+  width: 100%;
+  background-color: #f0f4f7;
+  border: none;
+  border-radius: 4px;
+  padding: 15px;
+  font-size: 16px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.reserve__path {
+ display: flex;
+ flex-direction: column;
+ gap: 25px;
+  margin-bottom: 25px;
+}
+
+.reserve__email, 
+.reserve__message {
+  margin-bottom: 60px;
+  width: 100%;
+}
+
+.book__btn {
+  padding: 18px 24px;
+  font-size: 18px;
+  color: #E9FF61;
+  background: #000000;
+}
+
+.tesla__img {
+width: 774px;
+height: 339px;
+margin-top: 80px;
+margin-left: 100px;
 }
