@@ -5,7 +5,8 @@ body {
   font-weight: 400;
   font-size: 24px;
   background: #E9E9E9;
-  margin: 32px;
+  margin-top: 32px;
+  margin-bottom: 0;
   margin-left: 0;
   margin-right: 0;
 }
@@ -444,6 +445,11 @@ text-align: center;
 
 .reserve { 
   padding-top: 128px;
+  padding-bottom: 128px;
+}
+
+.reserve__wrapper {
+  min-width: 500px ;
 }
 
 .reserve .container {
@@ -498,8 +504,45 @@ text-align: center;
 }
 
 .tesla__img {
-width: 774px;
-height: 339px;
-margin-top: 80px;
-margin-left: 100px;
+  width: 774px;
+  height: 339px;
+  margin-top: 80px;
+  margin-left: 60px;
 }
+
+.footer {
+  background: #000000;
+  padding-top: 50px;
+  height: 350px;
+}
+
+.footer__wrapper {
+  display: flex;
+  gap: 90px;
+  padding: 50px;
+}
+
+.footer__logo {
+  width: 206px;
+  height: 78px;
+  padding-right: 219px;
+}
+
+.footer__column {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer-column_text_active {
+  font-size: 18px;
+  color: #E9E9E9;
+  padding-bottom: 15px;
+}
+
+.footer-column_text {
+  font-size: 18px;
+  color: #FFFFFF;
+  opacity: 0.7;
+}
+
